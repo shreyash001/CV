@@ -1,12 +1,5 @@
 
-h1{
-    margin-top: 0px;
-    /* width: 250px ; */
-    /* text-align: center; */
-    position: relative;
-    display: inline-block;
-    left: 50px;
-    bottom: 70px
+.navbar{
     
 }
 
@@ -27,19 +20,51 @@ hr{
 }
 
 img{
-    display: inline-block;
-    position: relative;
+
+    
 }
 
 table{
 
 }
 
+/******************* Top Containers ****************/
+
 .top-container{
     /* background-color: #FAF7F0; */
     padding: 20px;
     /* display: inline-block; */
+    /* position: relative;
+    left: 350px; */
 }
+.self-image{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+}
+.name{
+    /* margin-top: 0px;
+    /* text-align: center;
+    position: relative;
+    */
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0;
+
+    left: 41.5%;    
+}
+.top-container-para{
+    text-align: center;
+    font-size: 20px;
+}
+
+/******************* Mid Containers ****************/
 
 .mid-container{
     padding: 20px;
@@ -50,7 +75,3 @@ table{
     padding: 20px;
 }
 
-.self-image{
-    height: 150px;
-    border-radius: 70%;
-}
